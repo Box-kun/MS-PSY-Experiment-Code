@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <style>
+        #imageContainer {
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #image {
+            max-width: 100%;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <label for="case-number">কোড:</label>
+        <input type="text" id="case-number">
+        <button id="start-button" onclick="start()">শুরু করুন</button>
+        <button onclick="download()">Download Results</button><br>
+    
+    
+        <h4 style="color:green;" id="gr">আবেগপূর্ণ শব্দ হলে "J" চাপুন</h4>  <h4 style="color:red;" id="rd">না হলে চাপ দেওয়া থেকে বিরত থাকুন</h4> 
+    
+      <div>
+        <div id="imageContainer">
+            <img id="image" src="Image/0.jpg">
+        </div>
+    
+        <script src="Practice Script.js"></script>
+    
+    
+    
+    
+</body>
+</html>

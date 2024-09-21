@@ -16,4 +16,7 @@ The target images remain on screen for 1000 ms, which is the window for particip
 
 
 # List of items
-1. Practice run code and image zip file
+1. Practice run code (JS & HTML)
+2. Images zip file
+
+Feel free to iterate the code.

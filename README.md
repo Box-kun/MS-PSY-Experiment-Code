@@ -1,6 +1,8 @@
-# MS-PSY-Experiment-Code
+# MS-PSY-Thesis-Experiment-Code
 
 JavaScript web-app used for an experiment as part of a Master's thesis.
+
+# Thesis Title: The Role of Background Shape Sharpness in Detecting Emotional Valence of Words
 
 # Brief overview of the experiment:
 
